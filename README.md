@@ -4,11 +4,13 @@ Supports both mp3 and mp4 formats
 No more websites filled with ads
 
 ## Installation
+> Tested on `Node v14.17`
+
 - First put all the files in the same folder.
 
 - `Node.js`is required for the script to work [Click here to goto Node.js website](https://nodejs.org/en/)
 
-> Tested on `Node v14.17`
+
 
 - After installing Node.js run the `install.bat` file. It will download the rest of the dependencies for you.
 
@@ -53,9 +55,8 @@ Node js is the runtime for running javascript outside browser environment. This 
 
 ### Errors
 I have not added error handling for permission errors.
-If you are having permission issues try running `run.bat` on administrator mode.
-
-**Support:** [Join Discord Server](https://discord.gg/3qTY9JdQ6z)
+If you are having permission issues try running `run.bat` on administrator mode
+Support: [Join Discord Server](https://discord.gg/3qTY9JdQ6z)
 
 
 
