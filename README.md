@@ -1,4 +1,4 @@
-# COMMAND LINE VIDEO DOWNLOADING UTILITY
+# COMMAND LINE VIDEO DOWNLOADING UTILITY [CLVD - UTILITY]
 A command line tool to download Youtube videos
 Supports both mp3 and mp4 formats
 No more websites filled with ads
@@ -32,12 +32,13 @@ You can host this on Repl.it.
 
 
 ## Screenshots
-
+ ### ENTERING VIDEO DETAILS AND DOWNLOAD FORMAT
 ![ENTERING VIDEO DETAILS AND DOWNLOAD FORMAT](https://cdn.discordapp.com/attachments/894302915508969482/894954795692064808/unknown.png)
 
-
+### VIDEO FOUND AND DOWNLOADING STARTED
 ![VIDEO FOUND AND DOWNLOADING STARTED](https://cdn.discordapp.com/attachments/894302915508969482/894955079717777438/unknown.png)
 
+### VIDEO NOT FOUND
 ![VIDEO NOT FOUND](https://cdn.discordapp.com/attachments/894302915508969482/894956324348121148/unknown.png)
 
 
