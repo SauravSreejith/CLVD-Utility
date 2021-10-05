@@ -1,0 +1,20 @@
+{
+  "name": "command-line-video-downloading-utility",
+  "version": "1.0.0",
+  "description": "A command line utility that makes of ytdl-core to download from YouTube. Supports mp3 and mp4 download",
+  "main": "downloader.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord-ytdl-core": "^5.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "prompt": "^1.2.0",
+    "ytdl-core": "^4.9.1",
+    "ytsr": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node downloader.js"
+  },
+  "author": "Saurav Sreejith",
+  "license": "MIT"
+}
