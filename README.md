@@ -8,7 +8,7 @@ No more websites filled with ads
 
 - First put all the files in the same folder.
 
-- `Node.js`is required for the script to work [Click here to goto Node.js website](https://nodejs.org/en/)
+- `Node.js` is required for the script to work [Click here to goto Node.js website](https://nodejs.org/en/)
 
 
 
