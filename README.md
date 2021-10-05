@@ -53,8 +53,9 @@ Node js is the runtime for running javascript outside browser environment. This 
 
 ### Errors
 I have not added error handling for permission errors.
-If you are having permission issues try running `run.bat` on administrator mode
-Support: [Join Discord Server](https://discord.gg/3qTY9JdQ6z)
+If you are having permission issues try running `run.bat` on administrator mode.
+
+**Support:** [Join Discord Server](https://discord.gg/3qTY9JdQ6z)
 
 
 
