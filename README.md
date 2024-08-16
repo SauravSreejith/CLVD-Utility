@@ -1,4 +1,5 @@
-# COMMAND LINE VIDEO DOWNLOADING UTILITY [CLVD - UTILITY]
+# COMMAND LINE VIDEO DOWNLOADING UTILITY
+
 A command line tool to download Youtube videos
 Supports both mp3 and mp4 formats
 No more websites filled with ads
@@ -56,8 +57,6 @@ Node js is the runtime for running javascript outside browser environment. This 
 ### Errors
 I have not added error handling for permission errors.
 If you are having permission issues try running `run.bat` on administrator mode
-Support: [Join Discord Server](https://discord.gg/3qTY9JdQ6z)
-
 
 
 # Made with ❤ using Javascript
