@@ -1,62 +1,151 @@
-# COMMAND LINE VIDEO DOWNLOADING UTILITY
+# 🎥 Command-Line YouTube Video Downloader
 
-A command line tool to download Youtube videos
-Supports both mp3 and mp4 formats
-No more websites filled with ads
+![](https://i.ibb.co/ZyF0Vjr/huge.png)
 
-## Installation
-> Tested on `Node v14.17`
+A simple yet powerful command-line utility to download YouTube videos and audio directly to your computer.  
+No ads, no trackers, no clutter — just fast and reliable downloads.
 
-- First put all the files in the same folder.
+Supports:
+- ✅ Video download (MP4)
+- ✅ Audio extraction (MP3)
 
-- `Node.js` is required for the script to work [Click here to goto Node.js website](https://nodejs.org/en/)
+> Tested on **Node.js v23.4.0**
+
+---
+
+## 🚀 Features
+
+- Download YouTube videos as MP4
+- Convert YouTube videos to MP3 audio
+- No external websites or annoying ads
+- Lightweight and fast
+- Compatible with Replit for easy hosting
+
+---
+
+## 🛠️ Installation
+
+### 1. Install Node.js (Required)
+
+Node.js is required to run this program.  
+Download and install Node.js based on your operating system:
+
+- **Windows**:  
+  Download from [https://nodejs.org/en/download](https://nodejs.org/en/download), run the installer, and follow the setup instructions.
+
+- **macOS**:  
+  Use Homebrew:  
+  ```bash
+  brew install node
+  ```
+
+- **Linux (Debian/Ubuntu-based)**:  
+  ```bash
+  sudo apt update
+  sudo apt install nodejs npm
+  ```
+
+- **Arch Linux**:  
+  ```bash
+  sudo pacman -S nodejs npm
+  ```
+
+After installation, verify:
+```bash
+node -v
+npm -v
+```
+
+### 2. Download the Project Files
+
+- Clone the repository or download the ZIP file and extract it.
+- Place all files in the same folder.
+
+### 3. Install Dependencies
+
+For Windows:
+- Double-click the `install.bat` file to automatically install dependencies.
+
+For other platforms (or manually):
+```bash
+npm install
+```
+
+---
+
+## ▶️ Usage
+
+### Windows
+- Run `run.bat`.
+
+### macOS / Linux / Replit
+- Open your terminal and navigate to the project directory.
+- Start the program with:
+  ```bash
+  node index.js
+  ```
+
+### Steps to Download:
+
+1. Enter the **video name** when prompted.
+2. Choose the **format**: `mp3` or `mp4`.
+3. Wait for the download to complete!
+
+---
+
+## 💻 Running on Replit
+
+You can also host and run this project on Replit:
+
+1. Create a new **Bash** Repl.
+2. Clone this repository:
+   ```bash
+   git clone <your-repo-link>
+   cd <repo-folder>
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the program:
+   ```bash
+   node index.js
+   ```
+
+> Tip: You can safely delete `install.bat` and `run.bat` on Replit since they're Windows-specific.
+
+---
+
+## ❓ FAQ
+
+### Why is the download taking too long?
+Download speed depends on:
+- Video duration
+- Your internet speed
+- System performance
+
+Longer videos will naturally take more time.
+
+### What is Node.js?
+Node.js is a JavaScript runtime that allows you to run JavaScript code outside a browser.  
+This project uses Node.js along with `ytdl-core` and other packages to fetch and process YouTube content.
+
+### I’m seeing permission errors!
+If you encounter permission issues, try:
+- Running `run.bat` as Administrator on Windows.
+- On macOS/Linux, ensure you have write permissions to the destination directory.
+
+### Video not found?
+- Double-check your search query.
+- URLS are not supported as of now
+- Ensure your internet connection is stable.
+- Try using more specific keywords.
+
+---
+
+## ❤️ Made with Love, using JavaScript
 
 
 
-- After installing Node.js run the `install.bat` file. It will download the rest of the dependencies for you.
-
-- If you followed the instruction you are done with installation.
 
 
-### Running on Repl.it
-You can host this on Repl.it. 
-- Make a new bash repl.
-- `git clone` this repository.
-- If you want you can delete `run.bat` and `install.bat` as they wont work in bash repl.
-- Type `npm install` on console and press enter to install all packages.
-- After downloading click **RUN** on top to start the program.
-
-
-
-## Downloading from Youtube
-
-- Run the `run.bat`
-- Enter the video name.
-- Type the format to download [MP3 OR MP4]
-
-
-## Screenshots
- ### ENTERING VIDEO DETAILS AND DOWNLOAD FORMAT
-![ENTERING VIDEO DETAILS AND DOWNLOAD FORMAT](https://cdn.discordapp.com/attachments/894302915508969482/894954795692064808/unknown.png)
-
-### VIDEO FOUND AND DOWNLOADING STARTED
-![VIDEO FOUND AND DOWNLOADING STARTED](https://cdn.discordapp.com/attachments/894302915508969482/894955079717777438/unknown.png)
-
-### VIDEO NOT FOUND
-![VIDEO NOT FOUND](https://cdn.discordapp.com/attachments/894302915508969482/894956324348121148/unknown.png)
-
-
-## FAQ
-
-### Why is the video downloading taking too long.
-It complety depends on the duration of video, your computer specifications and network speed.
-
-### NODE.JS
-Node js is the runtime for running javascript outside browser environment. This program uses `ytdl-core` and some other packages to retrieve data from youtube and download. If you dont have packages installed correctly it can throw an error.
-
-### Errors
-I have not added error handling for permission errors.
-If you are having permission issues try running `run.bat` on administrator mode
-
-
-# Made with ❤ using Javascript
