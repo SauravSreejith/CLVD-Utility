@@ -1,1 +1,1 @@
-run = "node downloader.js"
+run = "node main.js"
